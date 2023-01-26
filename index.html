@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://kit.fontawesome.com/fc99cff999.js" crossorigin="anonymous"></script>
+</head>
+<!-- Header Section -->
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/Logo3.png" class="logo">
+            <ul>
+                <li><a href="#">Work</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Skills</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="headerText">
+            <h1>Hello, I'm <span>Joshua Seeley</span></h1>
+            <!-- "Design that connects, research that informs -->
+            <p>UI/UX Designer<br>I Design to make users say 'Wow, that's pretty' instead of 'Wow, that's pretty ugly'</p>
+            <a href="#" class="coolBtn"><span class="readMore">READ MORE</span></a>
+            <a href="#" class="coolBtn2"><span class="resume">RESUME</span></a>
+            <!-- <button class="btn readMore">READ MORE</button>
+            <button class="btn resume">RESUME</button> -->
+        </div>  
+    </div>
+</div>
+
+<!-- About me section -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="aboutCol1">
+                <img src="images/profile.jpg">
+            </div>
+            <div class="aboutCol2">
+                <h1 class="subTitle">About Me</h1>
+                <p class="description">My passion for creating intuitive and user-centered designs began while studying Information systems in college. 
+                    It was then that I discovered the similarities between design and analytics, and the
+                    importance of organization and visual appeal in creating a positive user experience. 
+                    However, it was while traveling across Southeast Asia that I truly understood the 
+                    correlation between design and the emotions it evokes. I saw firsthand how a person's
+                    experience can be greatly impacted by the interactions they have with their environment.
+                    This realization only solidified my belief that a good design should be meaningful, 
+                    purposeful, and memorable to truly benefit users. Without this understanding, design 
+                    is nothing more than a problem-creating tool. My goal as a designer is to create 
+                    experiences that not only look good, but also solve real problems for users
+                </p>
+    
+                <div class="tabTitles">
+                    <p class="tabLinks activeLink" onclick="opentab('experience')">Experience</p>
+                    <p class="tabLinks" onclick="opentab('education')">Education</p>
+                    <p class="tabLinks" onclick="opentab('hobbies')">Hobbies</p>
+                </div>
+                <div class="tabContents activeTab" id="experience">
+                    <ul>
+                        <li><span>U of U UI/UX Boot Camp</span><br>Learned how to conduct user research and design web/app interfaces</li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="education">
+                    <ul>
+                        <li><span>University of Utah</span><br>Bachelors Degree in Information Systems</li>
+                        <li><span>Universiyt of Utah Bootcamps</span><br>UI/UX Bootcamp Certification</li>
+                    </ul>
+                </div>
+                <div class="tabContents" id="hobbies">
+                    <ul>
+                        <li><span>Basketball</span><br>I can put a ball in a basket.</li>
+                        <li><span>Traveling</span><br>I've walked outside my door before.</li>
+                        <li><span>Painting</span><br>Once and a while i'll pick up a paint brush.</li>
+                        <li><span>Gaming</span><br>I might have carpal tunnel.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+
+<!-- ----------------MY Skills Section----------------- -->
+
+<div id="mySkills">
+    <div class="container">
+        <h1 class="subTitle">My UX Skills</h1>
+        <div class="skillsList">
+            <div>
+                <img src="images/userResearch2.png" class="userResearch">
+                <h3>User Research</h3>
+                <p>The purpose of user research is to put design into context. Therefore, using user research
+                    is important when trying to learn what end users of a system or product want or need. I enjoy
+                    interviewing and talking with clients to gather imporatant data. Insights help improve and develop
+                    purpose for any design.
+                </p> 
+            </div>
+            <div>
+                <img src="images/userinterface2.png" class="interFace">
+                <h3>User Interface Design</h3>
+                <p>I possess skills that make interfaces visually pleasing and accessible for users. I understand the importance
+                    of user testing as well because it helps improve systems or designs for the better.
+                </p>
+            </div>
+            <div>
+                <img src="images/webDevelopment2.png" class="web">
+                <h3>Web Development</h3>
+                <p>I am able to understand web development language such as HTML, CSS, Javascript, and more. Being able to communicate with
+                    developers as a designers is important especially when u want to relay certain design information. 
+                </p>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- --------------My Work Section--------- -->
+<div id="myWork">
+    <div class="container">
+        <h1 class="subTitle">My Work</h1>
+        <div class="workList">
+            <div class="work">
+                <img class="pistachio" src="images/pistachiologo.png">
+                <div class="layer">
+                    <h3>Pistachio</h3>
+                    <p>Mobile, UX, Visual Design, Concept.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img class="balloon" src="images/airballoonlogo.png">
+                <div class="layer">
+                    <h3>KnowItAll</h3>
+                    <p>Mobile, UX, Visual Design, Concept</p>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/DHS.png">
+                <div class="layer">
+                    <h3>Homeland Security</h3>
+                    <p>Website, Concept, Redesign</p>
+                    <a href="#"><i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btnWork">See More</a>
+    </div>
+</div>
+
+
+<button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+<footer>
+    
+    <div class="footerContent">
+        <img src="images/logo.png">
+        <p></p>Interested in working together? I'd love to hear from you!</p>
+        <a href="#">LINKEDIN, INSTAGRAM, TWITTER</a>
+        <p>sjoshua7970@gmail.com</p>
+    </div>
+</footer>
+
+<button id="topBtn"><i class="fa-solid fa-arrow-up"></i></button>
+
+<!-- <i class="fa-solid fa-arrow-up"></i> -->
+</body>
+
+
+
+
+
+<!-- -------I need to put this in a javascript file instead of doing it directly on HTML--------- -->
+<script src="js/index.js"></script>
+
+    <!-- var tabLinks = document.getElementsByClassName("tabLinks");
+    var tabContents = document.getElementsByClassName("tabContents");
+    function opentab(tabname){
+        for(tabLink of tabLinks){
+            tabLink.classList.remove("activeLink");
+        }
+        for(tabContent of tabContents){
+            tabContent.classList.remove("activeTab");
+        }
+        event.currentTarget.classList.add("activeLink");
+        document.getElementById(tabname).classList.add("activeTab");
+    } -->
+
+</html>
